@@ -3,7 +3,7 @@ import sys, getopt, io, os
 usage = "odroid-fan-controller.py [-m,--mode <0,1>,<'auto','manual'>] [-s, --speed <25-100>] "
 usage += "[-v]"
 # odroid-xu4 device paths
-odroid_device_path = '/sys/devices/odroid_fan.13/'
+odroid_device_path = '/sys/devices/odroid_fan.14/'
 odroid_pwm_duty_file = 'pwm_duty'
 odroid_fan_mode_file = 'fan_mode'
 # odroid_fan_file_mode = 0 is manual fan mode
